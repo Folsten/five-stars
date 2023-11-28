@@ -7,14 +7,37 @@
     @apply w-[1140px] pl-3 pr-3;
   }
 
-  .button {
-
+  .buttonHollow {
+    @apply flex items-center pt-3 pb-3 pl-5 pr-5 text-2xl rounded-md border-[3px] font-bold;
   }
 
-  .button-orange {
+  .buttonHollow-green {
+    @apply border-green-100 text-green-100;
+  }
 
+  .buttonHollow-blue {
+    @apply border-blue-100 text-blue-100;
+  }
+
+  .buttonHollow-orange {
+    background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(92.6deg, #FA8116 -32.07%, #FFCA2B 104.28%) border-box;
+    border: 3px solid transparent;
+
+    .buttonHollow-orange__text {
+      background: linear-gradient(92.6deg, #FA8116 -32.07%, #FFCA2B 104.28%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: #FFBE3F;
+    }
+  }
+
+  .button-kaka {
   }
 }
 
-@layer components {}
-@layer utilities {}
+@layer components {
+}
+
+@layer utilities {
+}
