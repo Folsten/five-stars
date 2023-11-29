@@ -8,7 +8,7 @@
   }
 
   .buttonHollow {
-    @apply flex items-center pt-3 pb-3 pl-5 pr-5 text-2xl rounded-md border-[3px] font-bold;
+    @apply flex items-center pt-3 pb-3 pl-5 pr-5 text-2xl rounded-2xl border-[3px] font-bold sm:pt-2 sm:pb-2 sm:pl-4 sm:pr-4;
   }
 
   .buttonHollow-green {
