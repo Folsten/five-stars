@@ -30,6 +30,10 @@ module.exports = {
     container: {
       center: true
     },
+    fontFamily: {
+      'inter': ['Inter', 'sans-serif'],
+      'roboto': ['Roboto', 'sans-serif']
+    },
     colors: {
       white: 'white',
       black: 'black',

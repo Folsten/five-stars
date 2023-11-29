@@ -4,7 +4,7 @@
 yarn install
 ```
 ```sh
-yarn run dev
+yarn dev
 ```
 
 КАК СОБРАТЬ ПРОЕКТ
