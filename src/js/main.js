@@ -24,4 +24,10 @@ const swiper = new Swiper('.swiper', {
   scrollbar: {
     el: '.swiper-scrollbar',
   },
+
+// additional config
+  spaceBetween: 70,
+  autoplay: {
+    delay: 2000
+  },
 });
