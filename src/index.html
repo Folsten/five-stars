@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>Gulp with TailwindCSS v3</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" type="text/css" href="./css/style.css"/>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
@@ -115,178 +116,409 @@
     </div>
 </section>
 <section class="w-full flex justify-center mt-24 mb-24">
-    <div class="container flex flex-col justify-center">
+    <div class="container flex flex-col justify-center xl:w-[100%]">
         <h2 class="text-4xl font-bold text-text justify-center text-center sm:text-3xl">НАШИ РАБОТЫ</h2>
-        <div class="flex w-full">
-            <div class="flex justify-center mt-12">
-                <div class="flex flex-col bg-[#EBEBEB] p-0.5 rounded-lg">
-                    <div class="flex flex-col bg-white p-5 rounded-lg">
-                        <div class="flex items-center bg-[#F4F4F4] p-4 pl-2 pr-2 rounded-lg mr-[87px]">
-                            <div class="text-5xl font-semibold">2,6</div>
-                            <div class="flex flex-col ml-4">
-                                <div class="flex">
-                                    <img alt="star" src="./img/star.svg" class="w-3 mr-0.5">
-                                    <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
-                                    <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
-                                    <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
-                                    <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
+        <div class="swiper mt-12">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="flex xl:flex-wrap">
+                        <div class="flex justify-center shadow-[4px_6px_18px_0px_#00000014] rounded-lg">
+                            <div class="flex flex-col bg-[#EBEBEB] p-0.5 rounded-lg">
+                                <div class="hidden items-center justify-center text-[40px] text-[#353535] font-semibold mt-4 mb-4 xl:flex">
+                                    Было
                                 </div>
-                                <div class="flex text-xs whitespace-nowrap mt-1.5">
-                                    19 оценок
-                                </div>
-                            </div>
-                            <div class="flex ml-10">
-                                <div class="flex text-xs whitespace-nowrap">
-                                    Оцените<br>это место
-                                </div>
-                                <div class="flex ml-4">
-                                    <img alt="star" src="./img/star-empty.svg" class="w-4 ml-0.5 mr-0.5">
-                                    <img alt="star" src="./img/star-empty.svg" class="w-4 ml-0.5 mr-0.5">
-                                    <img alt="star" src="./img/star-empty.svg" class="w-4 ml-0.5 mr-0.5">
-                                    <img alt="star" src="./img/star-empty.svg" class="w-4 ml-0.5 mr-0.5">
-                                    <img alt="star" src="./img/star-empty.svg" class="w-4 ml-0.5 mr-0.5">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w-full h-[1px] bg-[#E0E0E0] mt-6 mb-6"></div>
-                        <div class="flex justify-between items-center">
-                            <div class="text-base font-semibold">198 отзывов</div>
-                            <div class="flex items-center">
-                                <span class="leading-none text-[10px] text-blue-100 font-bold">По умолчанию</span>
-                                <img alt="arrow-down" class="w-1 ml-1 mt-0.5" src="./img/arrow-down.svg">
-                            </div>
-                        </div>
-                        <div class="flex items-center mt-5">
-                            <img alt="avatar" src="./img/eclipse.svg" class="w-6 h-6">
-                            <div class="ml-2">
-                                <div class="font-semibold text-[10px]">Иван Иванов</div>
-                                <div class="font-medium text-[8px] text-[#B8B8B8]">Знаток города 3 уровня</div>
-                            </div>
-                        </div>
-                        <div class="flex mt-2">
-                            <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
-                            <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
-                            <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
-                            <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
-                            <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
-                        </div>
-                        <div class="flex text-xs font-roboto mt-2">
-                            Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев
-                            более
-                            менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык
-                            публичных
-                            выступлений в домашни ...
-                        </div>
-                        <div class="flex mt-2 text-xs text-[#C6C6C6]">
-                            ещё
-                        </div>
-                        <div class="flex mt-2">
-                            <div class="flex">
-                                <img alt="like" src="./img/like.svg">
-                                <span class="ml-1 text-xs text-[#C6C6C6]">3</span>
-                            </div>
-                            <div class="flex ml-3">
-                                <img alt="dislike" src="./img/dislike.svg">
-                                <span class="ml-1 text-xs text-[#C6C6C6]">29</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex items-center justify-center text-[40px] text-[#353535] font-semibold mt-4 mb-4">Было</div>
-                </div>
-            </div>
-            <img alt="arrow-right" src="./img/arrow-big-right.svg" class="ml-4 mr-4">
-            <div class="flex justify-center mt-12">
-                <div class="bg-orange-gradient flex flex-col p-0.5 rounded-lg">
-                    <div class="flex flex-col bg-white rounded-lg p-5">
-                        <div class="flex w-full">
-                            <div class="flex w-full items-center bg-[#F4F4F4] p-4 pl-2 pr-2 rounded-lg">
-                                <div class="text-5xl font-semibold">4,8</div>
-                                <div class="flex flex-col ml-4">
-                                    <div class="flex">
-                                        <img alt="star" src="./img/star.svg" class="w-3 mr-0.5">
+                                <div class="flex flex-col bg-white p-5 rounded-lg">
+                                    <div class="flex items-center bg-[#F4F4F4] p-4 pl-2 pr-2 rounded-lg mr-[87px]">
+                                        <div class="text-5xl font-semibold">2,6</div>
+                                        <div class="flex flex-col ml-4">
+                                            <div class="flex">
+                                                <img alt="star" src="./img/star.svg" class="w-3 mr-0.5">
+                                                <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
+                                                <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
+                                                <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
+                                                <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
+                                            </div>
+                                            <div class="flex text-xs whitespace-nowrap mt-1.5">
+                                                19 оценок
+                                            </div>
+                                        </div>
+                                        <div class="flex ml-10 sm:hidden">
+                                            <div class="flex text-xs whitespace-nowrap">
+                                                Оцените<br>это место
+                                            </div>
+                                            <div class="flex ml-4">
+                                                <img alt="star" src="./img/star-empty.svg" class="w-4 ml-0.5 mr-0.5">
+                                                <img alt="star" src="./img/star-empty.svg" class="w-4 ml-0.5 mr-0.5">
+                                                <img alt="star" src="./img/star-empty.svg" class="w-4 ml-0.5 mr-0.5">
+                                                <img alt="star" src="./img/star-empty.svg" class="w-4 ml-0.5 mr-0.5">
+                                                <img alt="star" src="./img/star-empty.svg" class="w-4 ml-0.5 mr-0.5">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="w-full h-[1px] bg-[#E0E0E0] mt-6 mb-6"></div>
+                                    <div class="flex justify-between items-center">
+                                        <div class="text-base font-semibold">198 отзывов</div>
+                                        <div class="flex items-center">
+                                            <span class="leading-none text-[10px] text-blue-100 font-bold">По умолчанию</span>
+                                            <img alt="arrow-down" class="w-1 ml-1 mt-0.5" src="./img/arrow-down.svg">
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center mt-5">
+                                        <img alt="avatar" src="./img/eclipse.svg" class="w-6 h-6">
+                                        <div class="ml-2">
+                                            <div class="font-semibold text-[10px]">Иван Иванов</div>
+                                            <div class="font-medium text-[8px] text-[#B8B8B8]">Знаток города 3 уровня
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex mt-2">
                                         <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
                                         <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
-                                        <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
-                                        <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
+                                        <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
+                                        <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
+                                        <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
                                     </div>
-                                    <div class="flex text-xs whitespace-nowrap mt-1.5">
-                                        369 оценок
+                                    <div class="flex text-xs font-roboto mt-2">
+                                        Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                        несколько
+                                        абзацев
+                                        более
+                                        менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить
+                                        навык
+                                        публичных
+                                        выступлений в домашни ...
+                                    </div>
+                                    <div class="flex mt-2 text-xs text-[#C6C6C6]">
+                                        ещё
+                                    </div>
+                                    <div class="flex mt-2">
+                                        <div class="flex">
+                                            <img alt="like" src="./img/like.svg">
+                                            <span class="ml-1 text-xs text-[#C6C6C6]">3</span>
+                                        </div>
+                                        <div class="flex ml-3">
+                                            <img alt="dislike" src="./img/dislike.svg">
+                                            <span class="ml-1 text-xs text-[#C6C6C6]">29</span>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="flex ml-10">
-                                    <div class="flex text-xs whitespace-nowrap">
-                                        Оцените<br> это место
-                                    </div>
-                                    <div class="flex ml-4">
-                                        <img alt="star" src="./img/star-empty.svg" class="w-4 ml-0.5 mr-0.5">
-                                        <img alt="star" src="./img/star-empty.svg" class="w-4 ml-0.5 mr-0.5">
-                                        <img alt="star" src="./img/star-empty.svg" class="w-4 ml-0.5 mr-0.5">
-                                        <img alt="star" src="./img/star-empty.svg" class="w-4 ml-0.5 mr-0.5">
-                                        <img alt="star" src="./img/star-empty.svg" class="w-4 ml-0.5 mr-0.5">
-                                    </div>
+                                <div class="flex items-center justify-center text-[40px] text-[#353535] font-semibold mt-4 mb-4 xl:hidden">
+                                    Было
                                 </div>
                             </div>
-                            <div class="flex flex-col items-center justify-center bg-[#F4F4F4] rounded-lg min-w-[75px] ml-3 p-3">
-                                <img alt="ya-logo" src="./img/ya.svg">
-                                <div class="flex">
-                                    <img alt="left garland" src="./img/garland-left.svg">
-                                    <span class="text-center text-[6px] text-[#B8B8B8] mt-0.5 ml-0.5 mr-0.5 leading-[8px]">Хорошее<br>место</span>
-                                    <img alt="right garland" src="./img/garland-right.svg">
+                        </div>
+                        <div class="flex ml-4 mr-4 xl:ml-0 xl:mr-0 xl:mt-4 xl:mb-4 xl:w-full xl:justify-center xl:rotate-90">
+                            <img alt="arrow-right" src="./img/arrow-big-right.svg" class="w-24 xl:h-24">
+                        </div>
+                        <div class="flex justify-center shadow-[4px_6px_18px_0px_#00000014] rounded-lg">
+                            <div class="bg-orange-gradient flex flex-col p-0.5 rounded-lg">
+                                <div class="hidden items-center justify-center text-[40px] text-white font-semibold mt-4 mb-4 xl:flex">
+                                    Стало
                                 </div>
-                                <span class="text-center text-[6px] text-[#B8B8B8]">
+                                <div class="flex flex-col bg-white rounded-lg p-5">
+                                    <div class="flex w-full">
+                                        <div class="flex w-full items-center bg-[#F4F4F4] p-4 pl-2 pr-2 rounded-lg">
+                                            <div class="text-5xl font-semibold">4,8</div>
+                                            <div class="flex flex-col ml-4">
+                                                <div class="flex">
+                                                    <img alt="star" src="./img/star.svg" class="w-3 mr-0.5">
+                                                    <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
+                                                    <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
+                                                    <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
+                                                    <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
+                                                </div>
+                                                <div class="flex text-xs whitespace-nowrap mt-1.5">
+                                                    369 оценок
+                                                </div>
+                                            </div>
+                                            <div class="flex ml-10 sm:hidden">
+                                                <div class="flex text-xs whitespace-nowrap">
+                                                    Оцените<br> это место
+                                                </div>
+                                                <div class="flex ml-4">
+                                                    <img alt="star" src="./img/star-empty.svg"
+                                                         class="w-4 ml-0.5 mr-0.5">
+                                                    <img alt="star" src="./img/star-empty.svg"
+                                                         class="w-4 ml-0.5 mr-0.5">
+                                                    <img alt="star" src="./img/star-empty.svg"
+                                                         class="w-4 ml-0.5 mr-0.5">
+                                                    <img alt="star" src="./img/star-empty.svg"
+                                                         class="w-4 ml-0.5 mr-0.5">
+                                                    <img alt="star" src="./img/star-empty.svg"
+                                                         class="w-4 ml-0.5 mr-0.5">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-col items-center justify-center bg-[#F4F4F4] rounded-lg min-w-[75px] ml-3 p-3">
+                                            <img alt="ya-logo" src="./img/ya.svg">
+                                            <div class="flex">
+                                                <img alt="left garland" src="./img/garland-left.svg">
+                                                <span class="text-center text-[6px] text-[#B8B8B8] mt-0.5 ml-0.5 mr-0.5 leading-[8px]">Хорошее<br>место</span>
+                                                <img alt="right garland" src="./img/garland-right.svg">
+                                            </div>
+                                            <span class="text-center text-[6px] text-[#B8B8B8]">
                                     2020
                                 </span>
-                            </div>
-                        </div>
-                        <div class="w-full h-[1px] bg-[#E0E0E0] mt-6 mb-6"></div>
-                        <div class="flex justify-between items-center">
-                            <div class="text-base font-semibold">198 отзывов</div>
-                            <div class="flex items-center">
-                                <span class="leading-none text-[10px] text-blue-100 font-bold">По умолчанию</span>
-                                <img alt="arrow-down" class="w-1 ml-1 mt-0.5" src="./img/arrow-down.svg">
-                            </div>
-                        </div>
-                        <div class="flex items-center mt-5">
-                            <img alt="avatar" src="./img/eclipse.svg" class="w-6 h-6">
-                            <div class="ml-2">
-                                <div class="font-semibold text-[10px]">Иван Иванов</div>
-                                <div class="font-medium text-[8px] text-[#B8B8B8]">Знаток города 3 уровня</div>
-                            </div>
-                        </div>
-                        <div class="flex mt-2">
-                            <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
-                            <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
-                            <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
-                            <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
-                            <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
-                        </div>
-                        <div class="flex text-xs font-roboto mt-2">
-                            Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев
-                            более
-                            менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык
-                            публичных
-                            выступлений в домашни ...
-                        </div>
-                        <div class="flex mt-2 text-xs text-[#C6C6C6]">
-                            ещё
-                        </div>
-                        <div class="flex mt-2">
-                            <div class="flex">
-                                <img alt="like" src="./img/like.svg">
-                                <span class="ml-1 text-xs text-[#C6C6C6]">3</span>
-                            </div>
-                            <div class="flex ml-3">
-                                <img alt="dislike" src="./img/dislike.svg">
-                                <span class="ml-1 text-xs text-[#C6C6C6]">29</span>
+                                        </div>
+                                    </div>
+                                    <div class="w-full h-[1px] bg-[#E0E0E0] mt-6 mb-6"></div>
+                                    <div class="flex justify-between items-center">
+                                        <div class="text-base font-semibold">198 отзывов</div>
+                                        <div class="flex items-center">
+                                            <span class="leading-none text-[10px] text-blue-100 font-bold">По умолчанию</span>
+                                            <img alt="arrow-down" class="w-1 ml-1 mt-0.5" src="./img/arrow-down.svg">
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center mt-5">
+                                        <img alt="avatar" src="./img/eclipse.svg" class="w-6 h-6">
+                                        <div class="ml-2">
+                                            <div class="font-semibold text-[10px]">Иван Иванов</div>
+                                            <div class="font-medium text-[8px] text-[#B8B8B8]">Знаток города 3 уровня
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex mt-2">
+                                        <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
+                                        <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
+                                        <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
+                                        <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
+                                        <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
+                                    </div>
+                                    <div class="flex text-xs font-roboto mt-2">
+                                        Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                        несколько
+                                        абзацев
+                                        более
+                                        менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить
+                                        навык
+                                        публичных
+                                        выступлений в домашни ...
+                                    </div>
+                                    <div class="flex mt-2 text-xs text-[#C6C6C6]">
+                                        ещё
+                                    </div>
+                                    <div class="flex mt-2">
+                                        <div class="flex">
+                                            <img alt="like" src="./img/like.svg">
+                                            <span class="ml-1 text-xs text-[#C6C6C6]">3</span>
+                                        </div>
+                                        <div class="flex ml-3">
+                                            <img alt="dislike" src="./img/dislike.svg">
+                                            <span class="ml-1 text-xs text-[#C6C6C6]">29</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-center text-[40px] text-white font-semibold mt-4 mb-4 xl:hidden">
+                                    Стало
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="flex items-center justify-center text-[40px] text-white font-semibold mt-4 mb-4">Стало</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="flex xl:flex-wrap">
+                        <div class="flex justify-center shadow-[4px_6px_18px_0px_#00000014] rounded-lg">
+                            <div class="flex flex-col bg-[#EBEBEB] p-0.5 rounded-lg">
+                                <div class="hidden items-center justify-center text-[40px] text-[#353535] font-semibold mt-4 mb-4 xl:flex">
+                                    Было
+                                </div>
+                                <div class="flex flex-col bg-white p-5 rounded-lg">
+                                    <div class="flex items-center bg-[#F4F4F4] p-4 pl-2 pr-2 rounded-lg mr-[87px]">
+                                        <div class="text-5xl font-semibold">2,6</div>
+                                        <div class="flex flex-col ml-4">
+                                            <div class="flex">
+                                                <img alt="star" src="./img/star.svg" class="w-3 mr-0.5">
+                                                <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
+                                                <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
+                                                <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
+                                                <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
+                                            </div>
+                                            <div class="flex text-xs whitespace-nowrap mt-1.5">
+                                                19 оценок
+                                            </div>
+                                        </div>
+                                        <div class="flex ml-10 sm:hidden">
+                                            <div class="flex text-xs whitespace-nowrap">
+                                                Оцените<br>это место
+                                            </div>
+                                            <div class="flex ml-4">
+                                                <img alt="star" src="./img/star-empty.svg" class="w-4 ml-0.5 mr-0.5">
+                                                <img alt="star" src="./img/star-empty.svg" class="w-4 ml-0.5 mr-0.5">
+                                                <img alt="star" src="./img/star-empty.svg" class="w-4 ml-0.5 mr-0.5">
+                                                <img alt="star" src="./img/star-empty.svg" class="w-4 ml-0.5 mr-0.5">
+                                                <img alt="star" src="./img/star-empty.svg" class="w-4 ml-0.5 mr-0.5">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="w-full h-[1px] bg-[#E0E0E0] mt-6 mb-6"></div>
+                                    <div class="flex justify-between items-center">
+                                        <div class="text-base font-semibold">198 отзывов</div>
+                                        <div class="flex items-center">
+                                            <span class="leading-none text-[10px] text-blue-100 font-bold">По умолчанию</span>
+                                            <img alt="arrow-down" class="w-1 ml-1 mt-0.5" src="./img/arrow-down.svg">
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center mt-5">
+                                        <img alt="avatar" src="./img/eclipse.svg" class="w-6 h-6">
+                                        <div class="ml-2">
+                                            <div class="font-semibold text-[10px]">Иван Иванов</div>
+                                            <div class="font-medium text-[8px] text-[#B8B8B8]">Знаток города 3 уровня
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex mt-2">
+                                        <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
+                                        <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
+                                        <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
+                                        <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
+                                        <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
+                                    </div>
+                                    <div class="flex text-xs font-roboto mt-2">
+                                        Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                        несколько
+                                        абзацев
+                                        более
+                                        менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить
+                                        навык
+                                        публичных
+                                        выступлений в домашни ...
+                                    </div>
+                                    <div class="flex mt-2 text-xs text-[#C6C6C6]">
+                                        ещё
+                                    </div>
+                                    <div class="flex mt-2">
+                                        <div class="flex">
+                                            <img alt="like" src="./img/like.svg">
+                                            <span class="ml-1 text-xs text-[#C6C6C6]">3</span>
+                                        </div>
+                                        <div class="flex ml-3">
+                                            <img alt="dislike" src="./img/dislike.svg">
+                                            <span class="ml-1 text-xs text-[#C6C6C6]">29</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-center text-[40px] text-[#353535] font-semibold mt-4 mb-4 xl:hidden">
+                                    Было
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex ml-4 mr-4 xl:ml-0 xl:mr-0 xl:mt-4 xl:mb-4 xl:w-full xl:justify-center xl:rotate-90">
+                            <img alt="arrow-right" src="./img/arrow-big-right.svg" class="w-24 xl:h-24">
+                        </div>
+                        <div class="flex justify-center shadow-[4px_6px_18px_0px_#00000014] rounded-lg">
+                            <div class="bg-orange-gradient flex flex-col p-0.5 rounded-lg">
+                                <div class="hidden items-center justify-center text-[40px] text-white font-semibold mt-4 mb-4 xl:flex">
+                                    Стало
+                                </div>
+                                <div class="flex flex-col bg-white rounded-lg p-5">
+                                    <div class="flex w-full">
+                                        <div class="flex w-full items-center bg-[#F4F4F4] p-4 pl-2 pr-2 rounded-lg">
+                                            <div class="text-5xl font-semibold">4,8</div>
+                                            <div class="flex flex-col ml-4">
+                                                <div class="flex">
+                                                    <img alt="star" src="./img/star.svg" class="w-3 mr-0.5">
+                                                    <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
+                                                    <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
+                                                    <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
+                                                    <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
+                                                </div>
+                                                <div class="flex text-xs whitespace-nowrap mt-1.5">
+                                                    369 оценок
+                                                </div>
+                                            </div>
+                                            <div class="flex ml-10 sm:hidden">
+                                                <div class="flex text-xs whitespace-nowrap">
+                                                    Оцените<br> это место
+                                                </div>
+                                                <div class="flex ml-4">
+                                                    <img alt="star" src="./img/star-empty.svg"
+                                                         class="w-4 ml-0.5 mr-0.5">
+                                                    <img alt="star" src="./img/star-empty.svg"
+                                                         class="w-4 ml-0.5 mr-0.5">
+                                                    <img alt="star" src="./img/star-empty.svg"
+                                                         class="w-4 ml-0.5 mr-0.5">
+                                                    <img alt="star" src="./img/star-empty.svg"
+                                                         class="w-4 ml-0.5 mr-0.5">
+                                                    <img alt="star" src="./img/star-empty.svg"
+                                                         class="w-4 ml-0.5 mr-0.5">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-col items-center justify-center bg-[#F4F4F4] rounded-lg min-w-[75px] ml-3 p-3">
+                                            <img alt="ya-logo" src="./img/ya.svg">
+                                            <div class="flex">
+                                                <img alt="left garland" src="./img/garland-left.svg">
+                                                <span class="text-center text-[6px] text-[#B8B8B8] mt-0.5 ml-0.5 mr-0.5 leading-[8px]">Хорошее<br>место</span>
+                                                <img alt="right garland" src="./img/garland-right.svg">
+                                            </div>
+                                            <span class="text-center text-[6px] text-[#B8B8B8]">
+                                    2020
+                                </span>
+                                        </div>
+                                    </div>
+                                    <div class="w-full h-[1px] bg-[#E0E0E0] mt-6 mb-6"></div>
+                                    <div class="flex justify-between items-center">
+                                        <div class="text-base font-semibold">198 отзывов</div>
+                                        <div class="flex items-center">
+                                            <span class="leading-none text-[10px] text-blue-100 font-bold">По умолчанию</span>
+                                            <img alt="arrow-down" class="w-1 ml-1 mt-0.5" src="./img/arrow-down.svg">
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center mt-5">
+                                        <img alt="avatar" src="./img/eclipse.svg" class="w-6 h-6">
+                                        <div class="ml-2">
+                                            <div class="font-semibold text-[10px]">Иван Иванов</div>
+                                            <div class="font-medium text-[8px] text-[#B8B8B8]">Знаток города 3 уровня
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex mt-2">
+                                        <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
+                                        <img alt="star" src="./img/star.svg" class="w-3 ml-0.5 mr-0.5">
+                                        <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
+                                        <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
+                                        <img alt="star" src="./img/star-empty.svg" class="w-3 ml-0.5 mr-0.5">
+                                    </div>
+                                    <div class="flex text-xs font-roboto mt-2">
+                                        Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                        несколько
+                                        абзацев
+                                        более
+                                        менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить
+                                        навык
+                                        публичных
+                                        выступлений в домашни ...
+                                    </div>
+                                    <div class="flex mt-2 text-xs text-[#C6C6C6]">
+                                        ещё
+                                    </div>
+                                    <div class="flex mt-2">
+                                        <div class="flex">
+                                            <img alt="like" src="./img/like.svg">
+                                            <span class="ml-1 text-xs text-[#C6C6C6]">3</span>
+                                        </div>
+                                        <div class="flex ml-3">
+                                            <img alt="dislike" src="./img/dislike.svg">
+                                            <span class="ml-1 text-xs text-[#C6C6C6]">29</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-center text-[40px] text-white font-semibold mt-4 mb-4 xl:hidden">
+                                    Стало
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="flex justify-between mt-4 sm:justify-center">
+            <img alt="slider left arrow" src="./img/slider-left.svg" class="w-20 swiper-button-left sm:hidden">
+            <div class="swiper-main-pagination items-center !flex !justify-center">we</div>
+            <img alt="slider right arrow" src="./img/slider-right.svg" class="swiper-button-right sm:hidden">
+        </div>
     </div>
 </section>
-<script src="./js/scripts.js"></script>
+<script type="module" src="./js/scripts.js"></script>
 </body>
 </html>
