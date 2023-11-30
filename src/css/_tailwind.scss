@@ -37,6 +37,13 @@
   }
 }
 
+.orange-gradient-text {
+  background: linear-gradient(92.6deg, #FA8116 -32.07%, #FFCA2B 104.28%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #FFBE3F;
+}
+
 @layer components {
 }
 
