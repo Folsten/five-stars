@@ -17,11 +17,3 @@ body {
 .swiper-button-next {
   display: flex !important;
 }
-
-.swiper-pagination-bullet {
-  @apply w-[17px] h-[17px];
-}
-
-.swiper-pagination-bullet-active {
-  @apply bg-orange;
-}

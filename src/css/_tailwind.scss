@@ -13,10 +13,18 @@
 
   .buttonHollow-green {
     @apply border-green-100 text-green-100;
+
+    &:hover {
+      @apply bg-green-100 text-white;
+    }
   }
 
   .buttonHollow-blue {
     @apply border-blue-100 text-blue-100;
+
+    &:hover {
+      @apply bg-blue-100 text-white
+    }
   }
 
   .buttonHollow-orange {
@@ -29,6 +37,14 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       color: #FFBE3F;
+    }
+
+    &:hover {
+      background: linear-gradient(92.6deg, #FA8116 -32.07%, #FFCA2B 104.28%) border-box;
+
+      .buttonHollow-orange__text {
+        -webkit-text-fill-color: white;
+      }
     }
   }
 
@@ -44,8 +60,4 @@
   color: #FFBE3F;
 }
 
-@layer components {
-}
-
-@layer utilities {
-}
+@layer utilities {}

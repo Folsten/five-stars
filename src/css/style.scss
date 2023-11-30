@@ -1,2 +1,17 @@
 @import "./tailwind";
 @import "./main";
+
+.swiper-pagination-bullet {
+  background: #D9D9D9 !important;
+  opacity: 1 !important;
+  width: 17px;
+  height: 17px;
+
+  &:hover {
+    border: 2px solid orange;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  background: orange !important;
+}
